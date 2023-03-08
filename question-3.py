@@ -27,8 +27,6 @@ def max_sum_of_contiguous_integers(integers: list[int]) -> int:
         # Start a new group with the new value
         current_group = [x]
 
-    print(sums_of_contiguous_groups)
-
     return max(sums_of_contiguous_groups)
 
 
